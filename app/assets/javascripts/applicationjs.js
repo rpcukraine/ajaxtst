@@ -7,20 +7,20 @@
  */
 
 
-$(function(){
+$(function () {
 
-$('#new_user_link').on('click', function(event){
-//    event.preventDefault();
-    console.log('link was clicked');
-});
-
-    $('#new_user_link').on('click', function(event){
+    $('#new_user_link').on('click', function (event) {
 //    event.preventDefault();
         console.log('link was clicked');
     });
 
-    $("#create_user_form").on('submit', function (event){
-        console.log(this.);
+    $('#new_user_link').on('click', function (event) {
+//    event.preventDefault();
+        console.log('link was clicked');
+    });
+
+    $("#create_user_form").on('submit', function (event) {
+        console.log(this);
         event.preventDefault();
 //        event.stopPropagation();
     });
